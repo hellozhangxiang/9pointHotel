@@ -1,0 +1,43 @@
+/*设置通用样式*/
+body{
+    font:12px "simhei",Arial,Helvetica,sans-serif;
+    color:#666;
+    margin:0;
+    padding:0;
+
+}
+p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd,span,pre{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+a{
+    color:black;
+    text-decoration:none;
+}
+a:hover{
+    
+	cursor: pointer;
+}
+img{
+    vertical-align:middle;
+}
+input{
+	display:inline;
+	outline:0;
+    border:0;
+	width:200px;
+}
+.lf { float:left;}
+.rt { float:right;}
+
+div.main{
+    width:960px;
+    margin:0 auto;
+}
+div.clear{
+	clear:both;
+}
+section{
+	min-height:500px;
+}

@@ -1,0 +1,117 @@
+#checkIn,#checkOut{
+	appearance: none;
+	margin:20px 0;
+	padding:0;
+	width:200px;
+	height:30px;
+	font-size:18px;
+}
+#section>span{
+	font-size:17px;
+	margin:20px;
+}
+#position,#price,#type{
+	width:95%;
+	margin:10px;
+	padding:10px;
+	display:flex;
+	font-size:15px;
+	border-bottom:2px solid #D5D5D5;
+}
+ul{	
+	margin-left:20px;
+}
+#position ul li,#type ul li{
+	margin-left:30px;
+	float:left;
+}
+section a{
+	color:#333;
+}
+section a:hover{
+	color:red;
+}
+
+#price ul li{
+	float:left;
+	margin-left:30px;
+}
+section input{
+width:80px;
+border:1px solid #F0F0F0;
+}
+#price ul li input,#type ul li input{
+	appearance: none;
+	margin:0;
+	padding:0;
+	width:10px;
+}
+#result>p{
+	width:100%;
+	margin-top:10px;
+	padding:10px 0;
+	font-size:20px;
+	border-radius:3px;
+	border-bottom:3px solid #BB7733;
+}
+#result>ul{
+	display:flex;
+	padding:10px;
+	border-bottom:2px solid #D5D5D5;
+	position:relative;
+}
+#result>ul>li{
+	height:160px;
+	overflow:hidden;
+	text-align:center;
+}
+#result>ul>li:last-child{
+	border-right:0;
+	width:15%;
+}
+#result>ul>li:first-child{
+	border-right:0;
+	width:70%;
+	text-align:left;
+	border-right:2px solid #D5D5D5;
+}
+#result>ul>li:nth-child(2){
+	border-right:0;
+	width:15%;
+	border-right:2px solid #D5D5D5;
+}
+#result>ul>li>span{
+	font-size:18px;
+	color:#333;
+	
+}
+#result ul li button{
+	padding:15px;
+	position:relative;
+	top:40px;
+}
+#result ul li a{
+	padding:20px;
+	background:#FCF7F7;
+	position:relative;
+	top:40px;
+	
+}
+#result>ul>li p{
+	font-size:24px;
+	color:#E88374;
+	position:relative;
+	top:40px;
+}
+#result>ul>li:last-child a{
+	position:relative;
+	top:70px;
+}
+#result>ul>li img{
+	transition:all .5s linear;
+	width:280px;
+	height:150px;
+}
+#result>ul>li img:hover{
+	transform:scale(1.05);
+}

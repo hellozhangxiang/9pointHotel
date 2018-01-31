@@ -1,0 +1,107 @@
+		div.loRe{
+			position:absolute;
+			background:rgba(0,0,0,0.3);
+			right:0;
+			top:50%;
+			padding:20px;
+			transform:translate(-40%,-50%);
+			text-align:center;
+		}
+		div.msg{
+			width:359px;
+			height:415px;
+			line-height:415px;
+		}
+		div.zhezhao{
+			position:absolute;
+			background:rgba(98,98,98,0.5);
+			width:100%;
+			height:100%;
+			right:0;
+			top:0;
+			text-align:center;
+			z-index:-1;
+		}
+		#login ul,#register ul{
+			list-style:none;
+			margin:0;
+			padding:0;
+		}
+		#login>h1,#register>h1{
+			font-size:18px;
+			color:#f3d78b;
+		}
+		#login li,#register li{
+			height:40px;
+			line-height:40px;
+			width:350px;
+		color:#333;
+			margin:15px 5px;
+		}
+		#login li>span>span{
+			
+		}
+		div.csLogin span{
+			display:inline-block;
+		}
+		#login li>span:first-child{
+		
+			
+		}
+		#login input,#register input{
+		width:140px;
+		}
+		#login span{}
+		#login .button,#register .button{
+		display:inline-block;
+			width:100px;
+			padding:5px 10px;
+			border-radius:4px;
+			cursor:pointer;
+			outline:none;
+			font-size:16px;
+			background:linear-gradient(to bottom,#26B0F6,#0BA1ED);
+		}
+		#login a,#register a{color:#fff;}
+		div.loRe>ul>li>span:first-child{
+			float:left;
+		}
+		.loRe>p{
+			color:#fff;
+			text-align:left;
+			font-size:14px;
+			padding:12px 10px;
+			border-bottom:1px solid #c0c0c0;
+		}
+		div.csLogin>ul>li>span:last-child{
+			float:right;
+		}
+		canvas{background:#333;}
+		#section{
+			width:100%;
+			height:500px;
+			position:relative;
+			background-image:url(../img/slider_bg.jpg);
+			background-size:cover;
+			margin-top:-5px;
+			z-indx:1000;
+		}
+		.rt{text-align:right;}
+		.li_input{background:#fff;margin:0 5px;border-radius:3px;}
+		.zhezhao div{
+			color:white;
+			position:absolute;
+			font-size:36px;
+			top:300px;
+			left:50%;
+			transform:translate(-50%,0);
+
+		}
+		div.hid{
+			width:0;
+			padding:0;
+			overflow:hidden;
+		}
+	li>span:last-child{
+		color:red;
+	}
